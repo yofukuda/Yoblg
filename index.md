@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome to Yoblg My Daily-Report
 
-You can use the [editor on GitHub](https://github.com/yofukuda/Yoblg/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### 2017-04-25
+コマンドラインとGithubフローの使い方
 ```
+ps aux
+ps: コマンドは今実行中のプロセスを出力するコマンド
+a: 自分以外のユーザーのプロセスも表示する
+u: ユーザー名と開始時刻を表示する
+x: 制御端末のないプロセスの情報も表示する
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yofukuda/Yoblg/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ps aux | grep ...
+|: プロセスを標準出力してパイプを使って標準入力に変更する。
+grep: で...の文字列を含んだものを抜き出してくる。
+```
