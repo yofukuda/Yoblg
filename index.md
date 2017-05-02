@@ -1,5 +1,5 @@
+<<<<<<< HEAD
 ## Welcome to Yoblg My Daily-Report
-
 
 ### 2017-04-25
 コマンドラインとGithubフローの使い方
