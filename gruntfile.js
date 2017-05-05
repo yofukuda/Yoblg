@@ -60,7 +60,7 @@ module.exports = function(grunt) {
             },
             pages: {
                 options: {
-                    remote: 'https://github.com/yofukuda/Yoblg', // change that
+                    remote: 'https://github.com/yofukuda/Yoblg.git', // change that
                     branch: 'gh-pages' // adjust here
                 }
             }
