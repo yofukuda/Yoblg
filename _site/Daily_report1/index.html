@@ -374,19 +374,12 @@
                         </div>
                         
                             
-                                <img class="featimg" src="/Yoblg/img/coding.jpg" alt="coding.jpg">
+                                <img class="featimg" src="/Yoblg/img/github.png" alt="github.png">
                             
                         
                         <div class="post_content">
                             <h2 id="welcome-to-yoblg-my-daily-report">Welcome to Yoblg My Daily-Report</h2>
 
-<h3 id="2017-04-27">2017-04-27</h3>
-<h2 id="apiを使ってコードが上手く機能しているかのテスト">APIを使ってコードが上手く機能しているかのテスト</h2>
-<p>APIを使って変更したコードが上手く機能しているかのテスト
-<a href="https://chrome.google.com/webstore/detail/restlet-client-dhc/aejoelaoggembcahagimdiliamlcdmfm?hl=en" target="_blank">Restlet Client</a>
-↑を使って実際にローカル環境でPOSTリクエストを送信してローカル上でDBに項目を追加</p>
-
-<h3 id="2017-04-26">2017-04-26</h3>
 <h2 id="プルリクエスト入門">プルリクエスト入門</h2>
 <p>Githubのプルリクエストをより他者にもわかりやすいようにまとめる。</p>
 <ol>
@@ -394,37 +387,25 @@
   <li>何をしたか？何を改善したのか？起こったエラーなど？プルリクにはできるだけ要点を的確に伝えることが大事</li>
 </ol>
 
-<h3 id="2017-04-25">2017-04-25</h3>
-<h2 id="コマンドラインとgithubフローの使い方">コマンドラインとGithubフローの使い方</h2>
-<div class="highlighter-rouge"><pre class="highlight"><code>  ps aux
-  #ps: コマンドは今実行中のプロセスを出力するコマンド
-  #a: 自分以外のユーザーのプロセスも表示する
-  #u: ユーザー名と開始時刻を表示する
-  #x: 制御端末のないプロセスの情報も表示する
+<div class="highlighter-rouge"><pre class="highlight"><code>## What? Why? and How
+What?：
+Github上にあるプロジェクトを自分のローカルPCに移して環境構築
 
-  ps aux | grep ...
-  #|: プロセスを標準出力してパイプを使って標準入力に変更する。
-  #grep: で...の文字列を含んだものを抜き出してくる。
+Why?：
+フレームワークのバージョンなどがプロジェクトによって違っていたりするのでそれに合わせて環境を構築する
+今回は`rbenv`を使って自身のローカルPCに環境構築
 
+起こったエラーとその解決方法：
 </code></pre>
 </div>
-<h2 id="what-why-and-how">What? Why? and How</h2>
-<p>What?：
-Github上にあるプロジェクトを自分のローカルPCに移して環境構築</p>
-
-<p>Why?：
-フレームワークのバージョンなどがプロジェクトによって違っていたりするのでそれに合わせて環境を構築する
-今回は<code class="highlighter-rouge">rbenv</code>を使って自身のローカルPCに環境構築</p>
-
-<p>起こったエラーとその解決方法：</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>  #使おうとしていたサーバーにすでに何かのプロセスが走っていたためエラーが発生
+<p>#使おうとしていたサーバーにすでに何かのプロセスが走っていたためエラーが発生
   #一つのサーバーに対して２つのプロセスを走らすことができない
   ps aux | grep rails
   #で見つけたサーバーを停止
   kill -9 PID
   #でそのサーバーを停止
-</code></pre>
-</div>
+```
+–</p>
 
                         </div>
                         
@@ -439,7 +420,7 @@ Github上にあるプロジェクトを自分のローカルPCに移して環境
                             <p class="tags">
                                 <span class="name">Tags:</span>
                                 
-                                    <a href="/Yoblg/tag/text">text</a>
+                                    <a href="/Yoblg/tag/GitHub">GitHub</a>
                                 
                             </p>
                             
@@ -474,13 +455,15 @@ Github上にあるプロジェクトを自分のローカルPCに移して環境
             
             
                 
-                    <li><a href="/Yoblg/tag/text">text</a></li>
+                    <li><a href="/Yoblg/tag/GitHub">GitHub</a></li>
                 
                     <li><a href="/Yoblg/tag/video">video</a></li>
                 
                     <li><a href="/Yoblg/tag/music">music</a></li>
                 
                     <li><a href="/Yoblg/tag/iframe">iframe</a></li>
+                
+                    <li><a href="/Yoblg/tag/Command Line">Command Line</a></li>
                 
             
             

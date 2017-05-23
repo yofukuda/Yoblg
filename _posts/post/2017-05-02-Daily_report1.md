@@ -2,39 +2,16 @@
 author: Yo
 layout: post
 title: Daily-Report [giftee]
-featimg: coding.jpg
-tags: [text]
+featimg: github.png
+tags: [GitHub]
 category: [standard]
 ---
 ## Welcome to Yoblg My Daily-Report
 
-### 2017-04-27
-## APIを使ってコードが上手く機能しているかのテスト
-APIを使って変更したコードが上手く機能しているかのテスト
-[Restlet Client](https://chrome.google.com/webstore/detail/restlet-client-dhc/aejoelaoggembcahagimdiliamlcdmfm?hl=en){:target="_blank"}
-↑を使って実際にローカル環境でPOSTリクエストを送信してローカル上でDBに項目を追加
-
-
-### 2017-04-26
 ## プルリクエスト入門
 Githubのプルリクエストをより他者にもわかりやすいようにまとめる。
 1. MarkDownなどを使ったりしてプルリクをカスタマイズしてより見やすくする。
 1. 何をしたか？何を改善したのか？起こったエラーなど？プルリクにはできるだけ要点を的確に伝えることが大事           
-
-
-
-### 2017-04-25
-## コマンドラインとGithubフローの使い方
-```
-  ps aux
-  #ps: コマンドは今実行中のプロセスを出力するコマンド
-  #a: 自分以外のユーザーのプロセスも表示する
-  #u: ユーザー名と開始時刻を表示する
-  #x: 制御端末のないプロセスの情報も表示する
-
-  ps aux | grep ...
-  #|: プロセスを標準出力してパイプを使って標準入力に変更する。
-  #grep: で...の文字列を含んだものを抜き出してくる。
 
 ```
 ## What? Why? and How
@@ -54,3 +31,4 @@ Why?：
   kill -9 PID
   #でそのサーバーを停止
 ```
+--
